@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Dikendra Kumar Verma
 
 **Superintendent of Examination | Assistant Professor | Researcher**
@@ -11,7 +16,27 @@ With over a decade of academic and administrative experience, I have contributed
 
 ---
 
+## Career Snapshot
+- **Superintendent of Examination** – GEHU Bhimtal (2015 – Present)
+- **Assistant Professor** – GEHU Bhimtal (2013 – Present)
+- Former **Teaching Personnel** – GBPUAT Pantnagar
+- Industry experience with **GGE Power Pvt. Ltd.** and **Kalki Communication Tech**
+
+---
+
+## Key Skills
+- Examination Planning & Management
+- Transcript Evaluation & Student Records
+- MATLAB, AutoCAD Electrical, Python
+- MOODLE-based Online Examinations
+- Research & Publications in Image Processing
+
+---
+
 ## Quick Links
 - [About Me](about.md)
 - [Publications](publications.md)
 - [Contact](contact.md)
+
+---
+*© 2025 Dikendra Kumar Verma*
