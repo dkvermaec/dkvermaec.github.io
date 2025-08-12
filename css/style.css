@@ -1,38 +1,53 @@
-:root{
-  --nav-bg: #2c2b3e;
-  --btn-bg: #2c2b3e;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  background: #f5f7f9;
-  margin:0;
+header {
+    background-color: #1f2235;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.site-top{
-  background: var(--nav-bg);
-  padding: 12px 0;
+.assignments {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
-.nav-link { color: #fff; margin-left: 12px; }
-.navbar-brand { letter-spacing: 0.2px; }
-
-.card { border: none; border-radius: 12px; }
-.card-title { font-size: 1.25rem; }
-
-.btn-view {
-  background: var(--btn-bg);
-  color: #fff;
-  padding: 8px 20px;
-  border-radius: 20px;
-  text-decoration: none;
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
 }
 
-.btn-view:hover {
-  background: #1f1e2d;
+.card h3 {
+    margin-bottom: 15px;
 }
 
-.site-foot {
-  background: var(--nav-bg);
-  margin-top: 40px;
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1f2235;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3b3f5c;
+}
+
+footer {
+    background-color: #1f2235;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
