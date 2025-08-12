@@ -1,0 +1,38 @@
+:root{
+  --nav-bg: #2c2b3e;
+  --btn-bg: #2c2b3e;
+}
+
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f5f7f9;
+  margin:0;
+}
+
+.site-top{
+  background: var(--nav-bg);
+  padding: 12px 0;
+}
+
+.nav-link { color: #fff; margin-left: 12px; }
+.navbar-brand { letter-spacing: 0.2px; }
+
+.card { border: none; border-radius: 12px; }
+.card-title { font-size: 1.25rem; }
+
+.btn-view {
+  background: var(--btn-bg);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.btn-view:hover {
+  background: #1f1e2d;
+}
+
+.site-foot {
+  background: var(--nav-bg);
+  margin-top: 40px;
+}
